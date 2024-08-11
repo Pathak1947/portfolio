@@ -1,0 +1,34 @@
+*Here also used scss.
+Step1. npm i -g sass
+  Sass is a preprocessor that build upon CSS by offering a wide range of features for creating cleaner, more organized
+  and maintainable stylrsheet.
+*On this project i have used framer motion.
+Step1. npm i framer-motion;
+Basic Animation :-
+
+Step2: import {motion} from 'framer-motion';
+const Box = () => (
+  <motino.div
+  whileHover ={{opacity:0.5}}
+  style={{padding:20, backgtoundColor:'lightblue'}}
+  >
+
+  Hover over me!
+  </motion.div>
+)
+
+2. Variants and Transitions:- Define custom Animation style and apply them:
+
+  const variants = {
+    hidden: { opacity : 0, scale: 0},
+    visible: { opacity: 1, scale: 1},
+  };
+
+  const MyComponent = () =>(
+    <motino.div initial="hidden" Animation="visible" variants={variants}>
+
+    My content 
+    </motion.div>
+  )
+
+  Also use whileHover, whileTap, whileInView
