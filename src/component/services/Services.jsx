@@ -92,7 +92,7 @@ const Services = () => {
             <li>
               <img src="/css.png" alt="CSS" />{" "}
               <span style={{ fontWeight: "bold", color: "skyblue" }}>CSS</span>{" "}
-              : Designs visually appealing and responsive web pages with CSS.
+              : Designs visually appealing and responsive web pages with CSS .
             </li>
             <li>
               <img src="/js.png" alt="JavaScript" />{" "}
@@ -113,6 +113,11 @@ const Services = () => {
               <span style={{ fontWeight: "bold", color: "#cc4342" }}>Git</span>{" "}
               : Manages and tracks code changes efficiently with Git for
               collaborative development.
+            </li>
+            <li>
+              <img src="/node.jfif" alt="node" />{" "}
+              <span style={{ fontWeight: "bold", color: "#00d2d7" }}>NodeJS</span>{" "}
+              : responsible for handling all backend request.
             </li>
           </ol>
           <button>
